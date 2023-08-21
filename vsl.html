@@ -50,7 +50,11 @@
         "https://checkout.perfectpay.com.br",
         "https://go.perfectpay.com.br/",
       ];
-
+          function mostrarBotao() {
+      var botao = document.getElementById("video-button-acesso");
+      botao.classList.remove("esconder");
+    };
+      setTimeout(mostrarBotao, 1000);
       // Armazene os parâmetros UTM em uma variável
       const utmParams = localStorage.getItem("utm_params");
       console.log(utmParams);
