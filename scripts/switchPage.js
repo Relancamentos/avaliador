@@ -206,7 +206,7 @@ function getCookie(name) {
         )}`;
   
         var s = document.createElement("script");
-        (s.src = LinkVturb), (s.async = !0), document.head.appendChild(s);
+        
   
         var t = new URLSearchParams(utmParams);
         
@@ -223,19 +223,7 @@ function getCookie(name) {
   
         localStorage.removeItem("utm_params");
   
-        var SECONDS_TO_DISPLAY = 300;
-        var CLASS_TO_DISPLAY = ".esconder";
-  
-        var attempts = 0;
-        var elsHiddenList = [];
-        var elsDisplayed = false;
-        var elsHidden = document.querySelectorAll(CLASS_TO_DISPLAY);
-        var alreadyDisplayedKey = `alreadyElsDisplayed${SECONDS_TO_DISPLAY}`;
-        var alreadyElsDisplayed = localStorage.getItem(alreadyDisplayedKey);
-  
-        setTimeout(function () {
-          elsHiddenList = Array.prototype.slice.call(elsHidden);
-        }, 0);
+       
   
         function backquente() {
           var back_redirect_back_link = "https://avaliador-profissional.online/";
