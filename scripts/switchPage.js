@@ -222,7 +222,10 @@ function getCookie(name) {
         });
   
         localStorage.removeItem("utm_params");
-  
+        setTimeout(function() {
+          var botao = document.getElementById("video-button-acesso");
+           botao.classList.remove("esconder");
+           }, segundos * 1000);
        
   
         function backquente() {
