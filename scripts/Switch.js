@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Aguarde o DOM estar pronto
 
   // Defina o tempo em segundos após o qual a classe "esconder" será removida
-  var segundos = 10;
+  var segundos = 50;
 
   setTimeout(function() {
     // Coloque aqui o código para remover a classe "esconder"
