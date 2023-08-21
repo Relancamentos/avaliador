@@ -587,7 +587,9 @@ input.input {
 .esconder {
     display: none;
 }
-
+.esconder2 {
+    display: none;
+}
 #smartplayer {
     border-radius: 10px !important;
 }
