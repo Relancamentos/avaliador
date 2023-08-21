@@ -50,19 +50,19 @@
         "https://checkout.perfectpay.com.br",
         "https://go.perfectpay.com.br/",
       ];
-      function mostrarBotao() {
-        var botao = document.getElementById("video-button-acesso");
-        botao.classList.remove("esconder");
-    };
-      setTimeout(mostrarBotao, 1);
       // Armazene os parâmetros UTM em uma variável
       const utmParams = localStorage.getItem("utm_params");
       console.log(utmParams);
 
-      document.addEventListener("DOMContentLoaded", function () {
-        /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
-        
-      });
+      document.addEventListener("DOMContentLoaded", function() {
+      var segundos = 10;
+
+  
+      setTimeout(function() {
+       var botao = document.getElementById("video-button-acesso");
+       botao.classList.remove("esconder");
+  }, segundos * 1000);
+});
 
       document.addEventListener(
         "contextmenu",
