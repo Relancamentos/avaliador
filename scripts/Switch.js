@@ -7,6 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
     // Coloque aqui o código para remover a classe "esconder"
     var botao = document.getElementById("video-button-acesso");
-    botao.classList.remove("esconder");
+    botao.classList.remove("esconder2");
   }, segundos * 1000); // Converta segundos em milissegundos
 });
